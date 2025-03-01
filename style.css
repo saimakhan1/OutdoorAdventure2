@@ -1,0 +1,245 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+header{
+	background-image: url('images/dawn.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 30px 70px;
+	background-blend-mode: multiply;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #fff;
+
+}
+.header-top{
+	display: flex;
+	justify-content: space-between;
+}
+.header-top .logo{
+	font-size: 30px;
+}
+.header-top ul{
+	display: flex;
+}
+
+.header-top ul li{
+	list-style: none;
+
+}
+
+.header-top ul li a{
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: bold;
+	display: inline-block;
+}
+.header-bottom{
+	text-align: center;
+	padding: 130px 0;
+}
+.header-bottom .explore1{
+	font-size: 35px;
+	font-style: italic;
+}
+.header-bottom span{
+	height: 8px;
+	width: 270px;
+	border-radius: 5px;
+	background-color: red;
+	display: inline-block;
+	margin: 30px 0;
+}
+.header-bottom h1{
+	padding: 50px 0 120px 0;
+	font-size: 50px;
+}
+.header-bottom button{
+	padding: 18px 30px;
+	border-radius: 50px;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+}
+/**************Upcoming Events***************************/
+.events .page-title{
+	text-align: center;
+	padding-top: 60px;
+}
+.events .page-title h2{
+	font-size: 40px;
+}
+.events .page-title span{
+	height: 8px;
+	width: 270px;
+	border-radius: 5px;
+	background-color: red;
+	display: inline-block;
+	margin: 10px 0;
+}
+.events-gallery{
+	display: flex;
+	justify-content: space-around;
+	padding: 40px 170px;
+}
+
+.gallery1, .gallery2{
+	
+	
+}
+.event-image{
+	text-align: center;
+}
+.events-gallery img{
+	width: 550px;
+	height: 380px;
+	border-radius: 10px;
+
+}
+.gallery1 .event-image{
+	padding-right: 30px;
+}
+.gallery2 .event-image{
+	padding-left: 30px;
+}
+.gallery1 .event-description, .gallery2 .event-description{
+	text-align: center;
+}
+.gallery1 .event-description a, .gallery2 .event-description a{
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+.gallery1 h2, .gallery2 h2{
+	padding-top: 13px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.gallery1 p, .gallery2 p{
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+/***********************Explore Section *******************************************************************/
+
+.explore{
+	background-image: url('images/father.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: right;
+	padding: 70px 50px;
+	background-blend-mode: multiply;
+	background-color: rgba(0, 0, 255, 0.4);
+	background-attachment: fixed;
+}
+.explore-box1{
+	width: 50%;
+	/*padding: 90px 20px 50px 90px;*/
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+.explore-box1 h1{
+	text-transform: uppercase;
+	font-size: 75px;
+	color: #fff;
+	letter-spacing: 7px;
+}
+
+.explore-box1 span{
+	height: 6px;
+	width: 220px;
+	border-radius: 5px;
+	background-color: red;
+	display: inline-block;
+	margin: 30px 0;
+}
+
+.explore-box1 p{
+	color: #fff;
+	font-size: 20px;
+}
+
+.explore-box1 a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	
+	padding-top: 60px;
+	padding-bottom: 0px;
+	display: inline-block;
+}
+/***************Section Tours****************************/
+
+.tours{
+	display: flex;
+	padding: 60px 80px 80px 80px;
+}
+
+.tours1{
+	width: 40%;
+	padding: 0px 15px;
+
+}
+.tours1 h1{
+	padding-bottom: 20px;
+	font-size: 27px;
+}
+.tours1 p{
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+.tours1 a{
+	font-size: 20px;
+}
+.tours2, .tours3{
+	width: 30%;
+}
+
+.tours img{
+	width: 370px;
+}
+
+.tours2-img1 img{
+	height: 280px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+.tours2-img2 img{
+	height: 390px;
+	padding-right: 20px;
+}
+
+.tours3-img1 img{
+	height: 390px;
+	padding-left: 20px;
+}
+
+.tours3-img2 img{
+	height: 280px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+/******************************footer*********************/
+footer{
+	background-color: black;
+	color: #fff;
+	font-size: 20px;
+	height: 200px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
